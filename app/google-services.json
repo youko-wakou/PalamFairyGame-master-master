@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "824895247292",
+    "firebase_url": "https://palamfairy.firebaseio.com",
+    "project_id": "palamfairy",
+    "storage_bucket": "palamfairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824895247292:android:f76aa7bd4a5d922d",
+        "android_client_info": {
+          "package_name": "jp.palamfairy.project.android.palamfairygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824895247292-0sttpgu79b115ovqkaa12771a4f4ccsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMKvyR3D7kOWxDwVR3WtEjgR-6v58OrZk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

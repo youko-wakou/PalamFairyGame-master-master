@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCE0D"
+    android:id="@+id/entryActivityView"
+    tools:context="jp.palamfairy.project.android.palamfairygame.UserPetEntryActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/petName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:background="#FFD958"
+        android:ems="10"
+        android:hint="あなたの名前を入力してください"
+        android:singleLine="false"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/petName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="#FFD958"
+        android:ems="10"
+        android:hint="ペットの名前を入力してください"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/petName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/EntrydogView"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/pet" />
+
+    <TextView
+        android:id="@+id/petContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nextButton"
+        android:layout_marginTop="12dp"
+        android:text="あなたと一緒に生活するペットです"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

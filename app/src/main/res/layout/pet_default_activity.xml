@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/petcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bagset"
+    tools:context="jp.palamfairy.project.android.palamfairygame.PetDefaultActivity">
+
+    <ImageView
+        android:id="@+id/petViewImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        app:srcCompat="@drawable/pet" />
+    <ImageView
+        android:id="@+id/petFaceAnime"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp" />
+
+    <ImageView
+        android:id="@+id/petHandSmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+         />
+    <!--app:srcCompat="@drawable/pet_smile"-->
+
+    <ImageView
+        android:id="@+id/cleanGoodsA"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBottom="@+id/petViewImage"
+        android:layout_toEndOf="@+id/petViewImage"
+        app:srcCompat="@drawable/clean" />
+    <!--android:layout_above="@+id/petViewImage"-->
+    <!--android:layout_alignEnd="@+id/toileC"-->
+
+
+    <Button
+        android:id="@+id/foodItem"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/cleanItem"
+        android:background="@drawable/onigiri_item" />
+
+    <Button
+        android:id="@+id/handItem"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/hand_item" />
+
+    <Button
+        android:id="@+id/cleanItem"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/foodItem"
+        android:background="@drawable/clean_item" />
+
+    <Button
+        android:id="@+id/toileA"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/handSlide"
+        android:layout_toEndOf="@+id/commentTEX"
+        android:background="@drawable/unti" />
+
+    <Button
+        android:id="@+id/toileB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/petViewImage"
+        android:layout_marginEnd="13dp"
+        android:layout_toStartOf="@+id/petViewImage"
+        android:background="@drawable/unti" />
+
+    <Button
+        android:id="@+id/toileC"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/petViewImage"
+        android:layout_toEndOf="@+id/petViewImage"
+        android:background="@drawable/unti" />
+
+    <Button
+        android:id="@+id/toileD"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/OnigiriView"
+        android:layout_below="@+id/handSlide"
+        android:background="@drawable/unti" />
+
+    <ImageView
+        android:id="@+id/OnigiriView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/petViewImage"
+        android:layout_alignStart="@+id/toileB"
+        app:srcCompat="@drawable/food" />
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_button" />
+
+    <ImageView
+        android:id="@+id/cleanGoodsB"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBottom="@+id/cleanGoodsC"
+        android:layout_marginBottom="21dp"
+        android:layout_toStartOf="@+id/petViewImage"
+        app:srcCompat="@drawable/clean" />
+
+    <ImageView
+        android:id="@+id/cleanGoodsC"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/cleanGoodsA"
+        android:layout_alignEnd="@+id/toileC"
+        app:srcCompat="@drawable/clean" />
+
+    <ImageView
+        android:id="@+id/cleanGoodsD"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBottom="@+id/toileD"
+        android:layout_alignEnd="@+id/OnigiriView"
+        app:srcCompat="@drawable/clean" />
+
+    <ImageView
+        android:id="@+id/handSlide"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/toileC"
+        android:layout_marginTop="15dp"
+        android:layout_toStartOf="@+id/cleanGoodsA"
+        />
+
+    <ImageView
+        android:id="@+id/commentBG"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/toileC"
+        android:layout_alignEnd="@+id/toileC"
+        app:srcCompat="@drawable/comment" />
+
+    <TextView
+        android:id="@+id/commentTEX"
+        android:layout_width="250dp"
+        android:layout_height="85dp"
+        android:layout_alignStart="@+id/toileB"
+        android:layout_alignTop="@+id/commentBG"
+        android:layout_marginTop="42dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/level_box"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#384654" />
+
+    <ImageView
+        android:id="@+id/levelbar"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/level_box"
+        android:layout_toEndOf="@+id/level_box"
+        android:background="#4B5660" />
+
+    <TextView
+        android:id="@+id/levelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/level_amount1"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/level_box"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount2"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount1"
+        android:layout_toEndOf="@+id/toileD"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount3"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount2"
+        android:layout_toEndOf="@+id/level_amount2"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount4"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount3"
+        android:layout_toEndOf="@+id/level_amount3"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount5"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount4"
+        android:layout_toEndOf="@+id/level_amount4"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount6"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount5"
+        android:layout_toEndOf="@+id/level_amount5"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount7"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount6"
+        android:layout_toEndOf="@+id/level_amount6"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount8"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount7"
+        android:layout_toEndOf="@+id/level_amount7"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount9"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount8"
+        android:layout_toEndOf="@+id/level_amount8"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/level_amount10"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/level_amount9"
+        android:layout_toEndOf="@+id/level_amount9"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/transItem"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/foodItem"
+        android:layout_toStartOf="@+id/cleanItem"
+        android:background="@drawable/hensin_item" />
+
+    <ImageView
+        android:id="@+id/levelUP"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/cleanGoodsC"
+        android:layout_toEndOf="@+id/toileD"
+        app:srcCompat="@drawable/level_up" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/cleanGoodsC"
+        android:layout_toEndOf="@+id/toileB"
+        app:srcCompat="@drawable/plus" />
+
+    <Button
+        android:id="@+id/transItemBt"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/cleanItem"
+        android:layout_alignStart="@+id/foodItem"
+        android:background="@drawable/trans_bt_item" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8822482186754971/7851195160">
+    </com.google.android.gms.ads.AdView>
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/menubar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/cleanGoodsB"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--android:theme="?attr/actionBarTheme" />-->
+
+</RelativeLayout>

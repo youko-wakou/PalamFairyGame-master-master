@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/petcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bagset"
+    tools:context="jp.palamfairy.project.android.palamfairygame.MainActivity">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/petViewImage"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="37dp"-->
+        <!--app:srcCompat="@drawable/pet" />-->
+    <!--<ImageView-->
+        <!--android:id="@+id/petFaceAnime"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="37dp" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/petHandSmile"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="37dp"-->
+        <!--app:srcCompat="@drawable/pet_smile" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/cleanGoodsA"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="130dp"-->
+        <!--android:layout_alignBottom="@+id/petViewImage"-->
+        <!--android:layout_toEndOf="@+id/petViewImage"-->
+        <!--app:srcCompat="@drawable/clean" />-->
+        <!--&lt;!&ndash;android:layout_above="@+id/petViewImage"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignEnd="@+id/toileC"&ndash;&gt;-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/foodItem"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toStartOf="@+id/cleanItem"-->
+        <!--android:background="@drawable/onigiri_item" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/handItem"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/hand_item" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/cleanItem"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_below="@+id/foodItem"-->
+        <!--android:background="@drawable/clean_item" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/toileA"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_below="@+id/handSlide"-->
+        <!--android:layout_toEndOf="@+id/commentTEX"-->
+        <!--android:background="@drawable/unti" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/toileB"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_above="@+id/petViewImage"-->
+        <!--android:layout_marginEnd="13dp"-->
+        <!--android:layout_toStartOf="@+id/petViewImage"-->
+        <!--android:background="@drawable/unti" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/toileC"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_above="@+id/petViewImage"-->
+        <!--android:layout_toEndOf="@+id/petViewImage"-->
+        <!--android:background="@drawable/unti" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/toileD"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignStart="@+id/OnigiriView"-->
+        <!--android:layout_below="@+id/handSlide"-->
+        <!--android:background="@drawable/unti" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/OnigiriView"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_alignBottom="@+id/petViewImage"-->
+        <!--android:layout_alignStart="@+id/toileB"-->
+        <!--app:srcCompat="@drawable/food" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/menu_button" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/cleanGoodsB"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="130dp"-->
+        <!--android:layout_alignBottom="@+id/cleanGoodsC"-->
+        <!--android:layout_marginBottom="21dp"-->
+        <!--android:layout_toStartOf="@+id/petViewImage"-->
+        <!--app:srcCompat="@drawable/clean" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/cleanGoodsC"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="130dp"-->
+        <!--android:layout_above="@+id/cleanGoodsA"-->
+        <!--android:layout_alignEnd="@+id/toileC"-->
+        <!--app:srcCompat="@drawable/clean" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/cleanGoodsD"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="130dp"-->
+        <!--android:layout_alignBottom="@+id/toileD"-->
+        <!--android:layout_alignEnd="@+id/OnigiriView"-->
+        <!--app:srcCompat="@drawable/clean" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/handSlide"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_alignTop="@+id/toileC"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_toStartOf="@+id/cleanGoodsA"-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/commentBG"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="180dp"-->
+        <!--android:layout_above="@+id/toileC"-->
+        <!--android:layout_alignEnd="@+id/toileC"-->
+        <!--app:srcCompat="@drawable/comment" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/commentTEX"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_alignStart="@+id/toileB"-->
+        <!--android:layout_below="@+id/cleanItem"-->
+        <!--android:layout_marginTop="41dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold" />-->
+
+</RelativeLayout>
